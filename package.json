@@ -1,0 +1,41 @@
+{
+  "name": "hrudu-shibu-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Hrudu Shibu - System Administrator & IT Professional",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build process required for static site'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/my-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "bootstrap",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "system-administrator",
+    "it-professional"
+  ],
+  "author": {
+    "name": "Hrudu Shibu",
+    "email": "hrudu.shibu@outlook.com",
+    "url": "https://linkedin.com/in/hrudushibu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/my-portfolio/issues"
+  },
+  "homepage": "https://hrudu.me/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "http-server": "^14.1.1"
+  }
+}
