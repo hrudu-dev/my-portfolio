@@ -1,0 +1,136 @@
+# Site settings
+title: "Hrudu Shibu"
+subtitle: "System Administrator & IT Professional"
+description: "Professional portfolio of Hrudu Shibu - System Administrator with expertise in IT support, infrastructure management, and compliance operations."
+baseurl: ""
+url: "https://hrudu.me"
+
+# Author information
+author:
+  name: "Hrudu Shibu"
+  bio: "Detail-oriented System Administrator with experience in IT support, infrastructure management, platform administration, and compliance operations."
+  avatar: "/assets/images/profile.jpg"
+  email: "hrudu.shibu@outlook.com"
+  phone: "+91 8592011325"
+  location: "Bengaluru, India"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/hrudushibu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hrudu-dev"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://hrudu.medium.com/"
+    - label: "Dev.to"
+      icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/hrudu"
+    - label: "Linktree"
+      icon: "fas fa-fw fa-link"
+      url: "https://linktr.ee/hrudu.shibu"
+
+# Site configuration
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site search
+search: true
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# SEO
+locale: "en-US"
+title_separator: "-"
+breadcrumbs: true
+
+# Social sharing
+twitter:
+  username: &twitter ""
+facebook:
+  username: &facebook ""
+  app_id: ""
+  publisher: ""
+og_image: "/assets/images/profile.jpg"
+
+# Site footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/hrudushibu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hrudu-dev"
+
+# Default front matter
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Kolkata
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

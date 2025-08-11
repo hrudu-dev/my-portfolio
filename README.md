@@ -1,6 +1,6 @@
 # Hrudu Shibu - Portfolio Website
 
-A modern, responsive portfolio website showcasing my professional experience as a System Administrator and IT Professional.
+A professional Jekyll-powered portfolio website showcasing my experience as a System Administrator and IT Professional.
 
 ## 🚀 Live Demo
 
@@ -8,34 +8,44 @@ A modern, responsive portfolio website showcasing my professional experience as 
 
 ## 📋 Features
 
+- **Jekyll Static Site Generator**: Fast, secure, and SEO-optimized
+- **Minimal Mistakes Theme**: Professional, responsive design
 - **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
-- **Modern UI/UX**: Clean, professional design with smooth animations
-- **Bootstrap 5**: Utilizes the latest Bootstrap framework
-- **Interactive Elements**: Hover effects and smooth scrolling
-- **SEO Optimized**: Semantic HTML structure
-- **Fast Loading**: Optimized assets and code
+- **Modern UI/UX**: Clean design with smooth navigation
+- **SEO Optimized**: Built-in SEO features with Jekyll
+- **Fast Loading**: Optimized static site generation
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3 (Custom properties, Flexbox, Grid)
-- JavaScript (ES6+)
-- Bootstrap 5.3.2
-- Font Awesome 6.4.0
+- Jekyll 4.x
+- Minimal Mistakes Theme
+- HTML5 & Markdown
+- SCSS/CSS3
+- JavaScript
+- GitHub Pages
 
 ## 📁 Project Structure
 
 ```
 my-portfolio/
-├── index.html              # Main HTML file
-├── css/
-│   └── style.css           # Custom CSS styles
-├── js/
-│   └── main.js            # JavaScript functionality
-├── assets/                 # Images and documents
-├── CNAME                   # Custom domain configuration
-├── LICENSE                 # MIT License
-└── SECURITY.md            # Security policy
+├── _config.yml             # Jekyll configuration
+├── _pages/                 # Static pages
+│   ├── about.md           # About page
+│   ├── experience.md      # Work experience
+│   ├── skills.md          # Skills & technologies
+│   └── contact.md         # Contact information
+├── assets/                 # Assets directory
+│   ├── css/
+│   │   └── style.scss     # Custom styles
+│   ├── js/
+│   │   └── main.js        # JavaScript
+│   ├── images/            # Images and photos
+│   └── documents/         # Resume and documents
+├── index.md               # Homepage
+├── Gemfile                # Ruby dependencies
+├── CNAME                  # Custom domain
+├── LICENSE                # MIT License
+└── SECURITY.md           # Security policy
 ```
 
 ## 📱 Browser Support
