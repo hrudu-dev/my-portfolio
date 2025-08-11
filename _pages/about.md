@@ -4,9 +4,8 @@ title: "About Me"
 layout: single
 author_profile: true
 header:
-  overlay_color: "#000"
+  overlay_color: "#11998e"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/about-bg.jpg
 ---
 
 ## Professional Profile

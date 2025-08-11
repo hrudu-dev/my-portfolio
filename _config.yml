@@ -37,6 +37,9 @@ minimal_mistakes_skin: "default"
 # Site search
 search: true
 
+# Navigation
+include: ["_pages"]
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
